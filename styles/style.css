@@ -1,13 +1,81 @@
 /* Global Style  */
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.primary-color{
+    color: #4e47ff;
+}
+
+.primary-shade{
+    background: rgba(78, 71, 255, 0.1);
+}
+
+.secondary-color{
+    color: red;
+
+}
+
+.dark-01{
+    color: #252432;
+    
+}
+.dark-02{
+    color: rgba(37,36,50,0.5);
+    
+    
+}
+
+.light{
+    color: #ffffff;
+}
+
+.light-shade{
+    background: rgba(255, 255, 255, 1);
+}
 
 /* nav style */
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-items: stretch;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+}
 
+.logo{
+
+}
+
+.cta{
+    font-size: 34px;
+}
 
 /* hero style */
 
