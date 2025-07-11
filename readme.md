@@ -1,4 +1,4 @@
-# Fun with JavaScript
+# ( সহজ সরল সিম্পল ) ASSIGNMENT-001
 
 This project is about design website from Figma to HTML, CSS from Programming Hero.
 
