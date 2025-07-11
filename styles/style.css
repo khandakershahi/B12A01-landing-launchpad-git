@@ -32,8 +32,12 @@ nav, main, footer{
     color: #4e47ff;
 }
 
-.primary-bg{
+.primary-bg-01{
     background: rgba(78, 71, 255, 1);
+}
+.primary-bg-02{
+    background: rgba(78, 71, 255, 0.1);
+
 }
 
 .primary-shade{
@@ -53,6 +57,10 @@ nav, main, footer{
     color: rgba(37,36,50,0.5);
     
     
+}
+
+.dark-03{
+    color: rgba(0,0,0,0.5);
 }
 
 .light{
@@ -95,12 +103,15 @@ nav{
     padding: 12px 36px 12px 36px;
     text-decoration: none;
     border-radius: 10px;
+    border: 1px solid #4e47ff;
 
 }
 
 .btn:hover{
-    background: rgba(78, 71, 255, 0.9);
-    transition: all ease-in;
+    background: #ffffff;
+    border: 1px solid #4e47ff;
+    color: #4e47ff;
+    transition: all .3s ease-in;
 }
 
 
@@ -175,4 +186,59 @@ nav{
  width: 403px;
  height: 328px;
  border-radius: 48px;
+}
+
+/* productive user styles */
+.productive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding: 50px 80px 50px 80px;
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+
+.productive-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.productive-content h3{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.achivements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 158px;
+}
+
+.achivements-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.achivements-title{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.achivements-description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+
 }
